@@ -1,27 +1,25 @@
+using UnityEngine;
+
 public class PlayerIdle : IPlayerState
 {
-    private readonly Player player;
+    private readonly Player p;
+    private static readonly int Speed = Animator.StringToHash("Speed");
 
-    public PlayerIdle(Player player)
-    {
-        this.player = player;
-    }
+    public PlayerIdle(Player player) => p = player;
 
     public void Enter()
     {
-        player.Stop();
+        p.Stop();
+        if (p.Anim != null)
+            p.Anim.SetFloat(Speed, 0f); 
     }
 
     public void Update()
     {
-        if (player.HasMoveInput())
-            player.SM.ChangeState(player.MoveState);
+        if (p.HasMoveInput())
+            p.SM.ChangeState(p.MoveState);
     }
 
-    public void FixedUpdate()
-    {
-        player.Stop();
-    }
-
+    public void FixedUpdate() { }
     public void Exit() { }
 }

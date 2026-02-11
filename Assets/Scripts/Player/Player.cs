@@ -6,6 +6,10 @@ public class Player : MonoBehaviour
     [Header("Move")]
     [SerializeField] private float moveSpeed = 5f;
 
+    [Header("Animator")]
+    [SerializeField] private Animator anim;
+    public Animator Anim => anim;
+
     public Rigidbody2D Rb { get; private set; }
     public Vector2 MoveInput { get; private set; }
 
@@ -40,7 +44,10 @@ public class Player : MonoBehaviour
             return;
         }
 
-        ReadInput();
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
+        MoveInput = new Vector2(x, y).normalized;
+
         SM.Update();
     }
 
