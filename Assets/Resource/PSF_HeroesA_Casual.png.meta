@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: d77baebfd4b45d14088992ceb5176b8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6916139332887413538
+    second: PSF_HeroesA_Casual_0
+  - first:
+      213: -3676149357930287545
+    second: PSF_HeroesA_Casual_1
+  - first:
+      213: 1291900368127537205
+    second: PSF_HeroesA_Casual_2
+  - first:
+      213: -5164600687104189076
+    second: PSF_HeroesA_Casual_3
+  - first:
+      213: -235124597498546353
+    second: PSF_HeroesA_Casual_4
+  - first:
+      213: -560259497230206715
+    second: PSF_HeroesA_Casual_5
+  - first:
+      213: -2037647125831836695
+    second: PSF_HeroesA_Casual_6
+  - first:
+      213: 8737868007653229527
+    second: PSF_HeroesA_Casual_7
+  - first:
+      213: 6766462303136362327
+    second: PSF_HeroesA_Casual_8
+  - first:
+      213: -3663641150641844820
+    second: PSF_HeroesA_Casual_9
+  - first:
+      213: 2729884689587740693
+    second: PSF_HeroesA_Casual_10
+  - first:
+      213: -7227231319284763627
+    second: PSF_HeroesA_Casual_11
+  - first:
+      213: -3816446903771182563
+    second: PSF_HeroesA_Casual_12
+  - first:
+      213: -2146457262943704861
+    second: PSF_HeroesA_Casual_13
+  - first:
+      213: -3268735198323149435
+    second: PSF_HeroesA_Casual_14
+  - first:
+      213: -7098119086198620861
+    second: PSF_HeroesA_Casual_15
+  - first:
+      213: 6087319450423348696
+    second: PSF_HeroesA_Casual_16
+  - first:
+      213: 7990621172892743134
+    second: PSF_HeroesA_Casual_17
+  - first:
+      213: -2051128761412503792
+    second: PSF_HeroesA_Casual_18
+  - first:
+      213: 4834011815641393911
+    second: PSF_HeroesA_Casual_19
+  - first:
+      213: -7076080126963758774
+    second: PSF_HeroesA_Casual_20
+  - first:
+      213: 5724822955876435118
+    second: PSF_HeroesA_Casual_21
+  - first:
+      213: -3028930748585567458
+    second: PSF_HeroesA_Casual_22
+  - first:
+      213: -7100557707688295416
+    second: PSF_HeroesA_Casual_23
+  - first:
+      213: -2696193257703402590
+    second: PSF_HeroesA_Casual_24
+  - first:
+      213: 7576516358557936419
+    second: PSF_HeroesA_Casual_25
+  - first:
+      213: -1868244418356692855
+    second: PSF_HeroesA_Casual_26
+  - first:
+      213: 2135684265066551452
+    second: PSF_HeroesA_Casual_27
+  - first:
+      213: -3506267031051071500
+    second: PSF_HeroesA_Casual_28
+  - first:
+      213: 9132106496775226809
+    second: PSF_HeroesA_Casual_29
+  - first:
+      213: -168763412171276341
+    second: PSF_HeroesA_Casual_30
+  - first:
+      213: 8789825826240740563
+    second: PSF_HeroesA_Casual_31
+  - first:
+      213: 8948336117375529471
+    second: PSF_HeroesA_Casual_32
+  - first:
+      213: -2589549407629666007
+    second: PSF_HeroesA_Casual_33
+  - first:
+      213: -7508117340687331651
+    second: PSF_HeroesA_Casual_34
+  - first:
+      213: -275327992889803483
+    second: PSF_HeroesA_Casual_35
+  - first:
+      213: -8455123088591648274
+    second: PSF_HeroesA_Casual_36
+  - first:
+      213: 4448783401555142751
+    second: PSF_HeroesA_Casual_37
+  - first:
+      213: 3904465361413125152
+    second: PSF_HeroesA_Casual_38
+  - first:
+      213: 1519196343053153976
+    second: PSF_HeroesA_Casual_39
+  - first:
+      213: -1749350381392836825
+    second: PSF_HeroesA_Casual_40
+  - first:
+      213: -4161649736304712507
+    second: PSF_HeroesA_Casual_41
+  - first:
+      213: -6884778395843540405
+    second: PSF_HeroesA_Casual_42
+  - first:
+      213: 5960489312765262588
+    second: PSF_HeroesA_Casual_43
+  - first:
+      213: -7787716451615819551
+    second: PSF_HeroesA_Casual_44
+  - first:
+      213: 677443745307415213
+    second: PSF_HeroesA_Casual_45
+  - first:
+      213: 6582944278769582259
+    second: PSF_HeroesA_Casual_46
+  - first:
+      213: -7941550010785715305
+    second: PSF_HeroesA_Casual_47
+  - first:
+      213: -208231555160914414
+    second: PSF_HeroesA_Casual_48
+  - first:
+      213: -1234991686656978344
+    second: PSF_HeroesA_Casual_49
+  - first:
+      213: 4283905175267846737
+    second: PSF_HeroesA_Casual_50
+  - first:
+      213: -5194742187822067815
+    second: PSF_HeroesA_Casual_51
+  - first:
+      213: -2373603241757147138
+    second: PSF_HeroesA_Casual_52
+  - first:
+      213: 7437149797303699880
+    second: PSF_HeroesA_Casual_53
+  - first:
+      213: 4215523931607200581
+    second: PSF_HeroesA_Casual_54
+  - first:
+      213: -1621560333132102678
+    second: PSF_HeroesA_Casual_55
+  - first:
+      213: -3174110338117658973
+    second: PSF_HeroesA_Casual_56
+  - first:
+      213: -8462037705926673371
+    second: PSF_HeroesA_Casual_57
+  - first:
+      213: -4195203274134385363
+    second: PSF_HeroesA_Casual_58
+  - first:
+      213: -1351882285188493033
+    second: PSF_HeroesA_Casual_59
+  - first:
+      213: 7005116867707340759
+    second: PSF_HeroesA_Casual_60
+  - first:
+      213: 7721550741544008556
+    second: PSF_HeroesA_Casual_61
+  - first:
+      213: 6913609975982008255
+    second: PSF_HeroesA_Casual_62
+  - first:
+      213: -6473840886169767026
+    second: PSF_HeroesA_Casual_63
+  - first:
+      213: 6070582461438025464
+    second: PSF_HeroesA_Casual_64
+  - first:
+      213: -1085962634870440972
+    second: PSF_HeroesA_Casual_65
+  - first:
+      213: -1428940879876904558
+    second: PSF_HeroesA_Casual_66
+  - first:
+      213: 263052159686265036
+    second: PSF_HeroesA_Casual_67
+  - first:
+      213: 287849069014488781
+    second: PSF_HeroesA_Casual_68
+  - first:
+      213: 8185481261799653490
+    second: PSF_HeroesA_Casual_69
+  - first:
+      213: -567681603107310122
+    second: PSF_HeroesA_Casual_70
+  - first:
+      213: 4394319426124937616
+    second: PSF_HeroesA_Casual_71
+  - first:
+      213: -8747654625142289403
+    second: PSF_HeroesA_Casual_72
+  - first:
+      213: -8547750492995370457
+    second: PSF_HeroesA_Casual_73
+  - first:
+      213: -5036251889834388244
+    second: PSF_HeroesA_Casual_74
+  - first:
+      213: -4293899112290722969
+    second: PSF_HeroesA_Casual_75
+  - first:
+      213: 2571635723441894071
+    second: PSF_HeroesA_Casual_76
+  - first:
+      213: 5834740290375823302
+    second: PSF_HeroesA_Casual_77
+  - first:
+      213: 1445658406976810066
+    second: PSF_HeroesA_Casual_78
+  - first:
+      213: -7655744134151106392
+    second: PSF_HeroesA_Casual_79
+  - first:
+      213: -4297917624086018790
+    second: PSF_HeroesA_Casual_80
+  - first:
+      213: -6902336493083548683
+    second: PSF_HeroesA_Casual_81
+  - first:
+      213: -3538453898575228381
+    second: PSF_HeroesA_Casual_82
+  - first:
+      213: -7859312267607644028
+    second: PSF_HeroesA_Casual_83
+  - first:
+      213: -3857798037832456678
+    second: PSF_HeroesA_Casual_84
+  - first:
+      213: -5405996816550567652
+    second: PSF_HeroesA_Casual_85
+  - first:
+      213: 4785506879235567043
+    second: PSF_HeroesA_Casual_86
+  - first:
+      213: 5692277226127896003
+    second: PSF_HeroesA_Casual_87
+  - first:
+      213: 8716703655502537142
+    second: PSF_HeroesA_Casual_88
+  - first:
+      213: -5456028848091660944
+    second: PSF_HeroesA_Casual_89
+  - first:
+      213: 5092497124782112663
+    second: PSF_HeroesA_Casual_90
+  - first:
+      213: -780229419369382174
+    second: PSF_HeroesA_Casual_91
+  - first:
+      213: 4821679522131058766
+    second: PSF_HeroesA_Casual_92
+  - first:
+      213: 3702335415018778871
+    second: PSF_HeroesA_Casual_93
+  - first:
+      213: 4422797185138073332
+    second: PSF_HeroesA_Casual_94
+  - first:
+      213: -8953158527193317746
+    second: PSF_HeroesA_Casual_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 671
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc73268befe400a0800000000000000
+      internalID: -6916139332887413538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 671
+        width: 47
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ee843d2a1bbfcc0800000000000000
+      internalID: -3676149357930287545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 671
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530307f3a80cde110800000000000000
+      internalID: 1291900368127537205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 671
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d9a6ec907a358b0800000000000000
+      internalID: -5164600687104189076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 671
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f477420ac6bacbcf0800000000000000
+      internalID: -235124597498546353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 671
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509fd85a4fe8938f0800000000000000
+      internalID: -560259497230206715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 671
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb92372cb2d8b3e0800000000000000
+      internalID: -2037647125831836695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_7
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 671
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3cb6268a4234970800000000000000
+      internalID: 8737868007653229527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_8
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 671
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fa38c4d9d47ed50800000000000000
+      internalID: 6766462303136362327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 671
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad4d77c8c1282dc0800000000000000
+      internalID: -3663641150641844820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 671
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510a7a069af72e520800000000000000
+      internalID: 2729884689587740693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_11
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 671
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51434781867b3bb90800000000000000
+      internalID: -7227231319284763627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 575
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a449ce2c1490bc0800000000000000
+      internalID: -3816446903771182563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 575
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8eea4ed704632e0800000000000000
+      internalID: -2146457262943704861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 575
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585f127d7ae13a2d0800000000000000
+      internalID: -3268735198323149435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 575
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34df5bd6c4a6e7d90800000000000000
+      internalID: -7098119086198620861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 575
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd4fc4c9c08a7450800000000000000
+      internalID: 6087319450423348696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_17
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 575
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5bcf0ee9364ee60800000000000000
+      internalID: 7990621172892743134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_18
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 575
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017bb63424de883e0800000000000000
+      internalID: -2051128761412503792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 575
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faa857722cd51340800000000000000
+      internalID: 4834011815641393911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 575
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49cf1e7d96bccd90800000000000000
+      internalID: -7076080126963758774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_21
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 575
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4440f9528a27f40800000000000000
+      internalID: 5724822955876435118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_22
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 575
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b9c49388317f5d0800000000000000
+      internalID: -3028930748585567458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_23
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 575
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804c31e9260c57d90800000000000000
+      internalID: -7100557707688295416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 479
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a319c46482359ad0800000000000000
+      internalID: -2696193257703402590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 479
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b28ca6c71352960800000000000000
+      internalID: 7576516358557936419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 479
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9883e329999a216e0800000000000000
+      internalID: -1868244418356692855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_27
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 479
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98dea3168973ad10800000000000000
+      internalID: 2135684265066551452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_28
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 479
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff898656bc375fc0800000000000000
+      internalID: -3506267031051071500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_29
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 479
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5035f8972cbbe70800000000000000
+      internalID: 9132106496775226809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_30
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 479
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfb27e129e68adf0800000000000000
+      internalID: -168763412171276341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 479
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc32aab40cbbf970800000000000000
+      internalID: 8789825826240740563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_32
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 479
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff177f6d940ee2c70800000000000000
+      internalID: 8948336117375529471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_33
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 479
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92919e5a882101cd0800000000000000
+      internalID: -2589549407629666007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_34
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 479
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe8160fe0fcdc790800000000000000
+      internalID: -7508117340687331651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_35
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 479
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52df41336a6dd2cf0800000000000000
+      internalID: -275327992889803483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 383
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee98a4c195e59aa80800000000000000
+      internalID: -8455123088591648274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 383
+        width: 47
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58295cdee04dbd30800000000000000
+      internalID: 4448783401555142751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_38
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 383
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024b8d83f827f2630800000000000000
+      internalID: 3904465361413125152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_39
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 383
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b671c36605451510800000000000000
+      internalID: 1519196343053153976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_40
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 383
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727c269b81f09b7e0800000000000000
+      internalID: -1749350381392836825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_41
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 383
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4a5fb3d99de36c0800000000000000
+      internalID: -4161649736304712507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_42
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 383
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a467ea68a5470a0800000000000000
+      internalID: -6884778395843540405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_43
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 383
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab2ee2379e7b250800000000000000
+      internalID: 5960489312765262588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_44
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 383
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e839f9f5297ce390800000000000000
+      internalID: -7787716451615819551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_45
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 383
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2db524f73c66900800000000000000
+      internalID: 677443745307415213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_46
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 383
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0404091f05b5b50800000000000000
+      internalID: 6582944278769582259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_47
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 383
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b2e116752f9c190800000000000000
+      internalID: -7941550010785715305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 287
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2164b9bf0863c1df0800000000000000
+      internalID: -208231555160914414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_49
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 287
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8521040ba9d6cdee0800000000000000
+      internalID: -1234991686656978344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 287
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a2c4f4f0d737b30800000000000000
+      internalID: 4283905175267846737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_51
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 287
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f412bc08198e7b0800000000000000
+      internalID: -5194742187822067815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_52
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 287
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff79517d644f0fd0800000000000000
+      internalID: -2373603241757147138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_53
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 287
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9c7a14650163760800000000000000
+      internalID: 7437149797303699880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_54
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 287
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543fa955eac808a30800000000000000
+      internalID: 4215523931607200581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_55
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 287
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae30cc9e77f0f79e0800000000000000
+      internalID: -1621560333132102678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_56
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 287
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a61a92f67b43f3d0800000000000000
+      internalID: -3174110338117658973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_57
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 287
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c774e4a8dc09a80800000000000000
+      internalID: -8462037705926673371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_58
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 287
+        width: 47
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d0aac69d4a7c5c0800000000000000
+      internalID: -4195203274134385363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_59
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 287
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711523569362d3de0800000000000000
+      internalID: -1351882285188493033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 191
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d70bcd2dac273160800000000000000
+      internalID: 7005116867707340759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_61
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 191
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b72e82d75782b60800000000000000
+      internalID: 7721550741544008556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_62
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 191
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7210ea4a312ff50800000000000000
+      internalID: 6913609975982008255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_63
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 191
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83737f830c4826a0800000000000000
+      internalID: -6473840886169767026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_64
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 191
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fedab9d59a0f3450800000000000000
+      internalID: 6070582461438025464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_65
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 191
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb333dbcb2ede0f0800000000000000
+      internalID: -1085962634870440972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_66
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 191
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29927e137d16b2ce0800000000000000
+      internalID: -1428940879876904558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_67
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 191
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8cf77ab8c86a300800000000000000
+      internalID: 263052159686265036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_68
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 191
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc619830435aef300800000000000000
+      internalID: 287849069014488781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_69
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 191
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2704f2dc6dba89170800000000000000
+      internalID: 8185481261799653490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_70
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 191
+        width: 38
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5b345f6903f18f0800000000000000
+      internalID: -567681603107310122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_71
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 191
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09976c76c32cbfc30800000000000000
+      internalID: 4394319426124937616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c479a27761a9680800000000000000
+      internalID: -8747654625142289403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_73
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 95
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722475ce63a406980800000000000000
+      internalID: -8547750492995370457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 95
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce41803e693ab1ab0800000000000000
+      internalID: -5036251889834388244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_75
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 95
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bdb86e1810964c0800000000000000
+      internalID: -4293899112290722969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_76
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 95
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2757bb01940b320800000000000000
+      internalID: 2571635723441894071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_77
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 95
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfa28c516929f050800000000000000
+      internalID: 5834740290375823302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_78
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 95
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ce86669a2001410800000000000000
+      internalID: 1445658406976810066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_79
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 95
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a094a8954551c590800000000000000
+      internalID: -7655744134151106392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_80
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 95
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15467631baba54c0800000000000000
+      internalID: -4297917624086018790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_81
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 95
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f32a899789f530a0800000000000000
+      internalID: -6902336493083548683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_82
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 95
+        width: 38
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322d3514de2e4eec0800000000000000
+      internalID: -3538453898575228381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_83
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 95
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488606e022d1ee290800000000000000
+      internalID: -7859312267607644028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a162cc3cf19567ac0800000000000000
+      internalID: -3857798037832456678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_85
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c116c9c998a0af4b0800000000000000
+      internalID: -5405996816550567652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_86
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd2607e629896240800000000000000
+      internalID: 4785506879235567043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_87
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd266a6af70ffe40800000000000000
+      internalID: 5692277226127896003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_88
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1e396aac3f7f870800000000000000
+      internalID: 8716703655502537142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_89
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d76318baa4844b0800000000000000
+      internalID: -5456028848091660944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_90
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ff55e572f2ca640800000000000000
+      internalID: 5092497124782112663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_91
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eebd271a711c25f0800000000000000
+      internalID: -780229419369382174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_92
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40a561aafb0ae240800000000000000
+      internalID: 4821679522131058766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_93
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0fa83b176516330800000000000000
+      internalID: 3702335415018778871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_94
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe90cd5b9ee06d30800000000000000
+      internalID: 4422797185138073332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_HeroesA_Casual_95
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ef1e061cdffb380800000000000000
+      internalID: -8953158527193317746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PSF_HeroesA_Casual_0: -6916139332887413538
+      PSF_HeroesA_Casual_1: -3676149357930287545
+      PSF_HeroesA_Casual_10: 2729884689587740693
+      PSF_HeroesA_Casual_11: -7227231319284763627
+      PSF_HeroesA_Casual_12: -3816446903771182563
+      PSF_HeroesA_Casual_13: -2146457262943704861
+      PSF_HeroesA_Casual_14: -3268735198323149435
+      PSF_HeroesA_Casual_15: -7098119086198620861
+      PSF_HeroesA_Casual_16: 6087319450423348696
+      PSF_HeroesA_Casual_17: 7990621172892743134
+      PSF_HeroesA_Casual_18: -2051128761412503792
+      PSF_HeroesA_Casual_19: 4834011815641393911
+      PSF_HeroesA_Casual_2: 1291900368127537205
+      PSF_HeroesA_Casual_20: -7076080126963758774
+      PSF_HeroesA_Casual_21: 5724822955876435118
+      PSF_HeroesA_Casual_22: -3028930748585567458
+      PSF_HeroesA_Casual_23: -7100557707688295416
+      PSF_HeroesA_Casual_24: -2696193257703402590
+      PSF_HeroesA_Casual_25: 7576516358557936419
+      PSF_HeroesA_Casual_26: -1868244418356692855
+      PSF_HeroesA_Casual_27: 2135684265066551452
+      PSF_HeroesA_Casual_28: -3506267031051071500
+      PSF_HeroesA_Casual_29: 9132106496775226809
+      PSF_HeroesA_Casual_3: -5164600687104189076
+      PSF_HeroesA_Casual_30: -168763412171276341
+      PSF_HeroesA_Casual_31: 8789825826240740563
+      PSF_HeroesA_Casual_32: 8948336117375529471
+      PSF_HeroesA_Casual_33: -2589549407629666007
+      PSF_HeroesA_Casual_34: -7508117340687331651
+      PSF_HeroesA_Casual_35: -275327992889803483
+      PSF_HeroesA_Casual_36: -8455123088591648274
+      PSF_HeroesA_Casual_37: 4448783401555142751
+      PSF_HeroesA_Casual_38: 3904465361413125152
+      PSF_HeroesA_Casual_39: 1519196343053153976
+      PSF_HeroesA_Casual_4: -235124597498546353
+      PSF_HeroesA_Casual_40: -1749350381392836825
+      PSF_HeroesA_Casual_41: -4161649736304712507
+      PSF_HeroesA_Casual_42: -6884778395843540405
+      PSF_HeroesA_Casual_43: 5960489312765262588
+      PSF_HeroesA_Casual_44: -7787716451615819551
+      PSF_HeroesA_Casual_45: 677443745307415213
+      PSF_HeroesA_Casual_46: 6582944278769582259
+      PSF_HeroesA_Casual_47: -7941550010785715305
+      PSF_HeroesA_Casual_48: -208231555160914414
+      PSF_HeroesA_Casual_49: -1234991686656978344
+      PSF_HeroesA_Casual_5: -560259497230206715
+      PSF_HeroesA_Casual_50: 4283905175267846737
+      PSF_HeroesA_Casual_51: -5194742187822067815
+      PSF_HeroesA_Casual_52: -2373603241757147138
+      PSF_HeroesA_Casual_53: 7437149797303699880
+      PSF_HeroesA_Casual_54: 4215523931607200581
+      PSF_HeroesA_Casual_55: -1621560333132102678
+      PSF_HeroesA_Casual_56: -3174110338117658973
+      PSF_HeroesA_Casual_57: -8462037705926673371
+      PSF_HeroesA_Casual_58: -4195203274134385363
+      PSF_HeroesA_Casual_59: -1351882285188493033
+      PSF_HeroesA_Casual_6: -2037647125831836695
+      PSF_HeroesA_Casual_60: 7005116867707340759
+      PSF_HeroesA_Casual_61: 7721550741544008556
+      PSF_HeroesA_Casual_62: 6913609975982008255
+      PSF_HeroesA_Casual_63: -6473840886169767026
+      PSF_HeroesA_Casual_64: 6070582461438025464
+      PSF_HeroesA_Casual_65: -1085962634870440972
+      PSF_HeroesA_Casual_66: -1428940879876904558
+      PSF_HeroesA_Casual_67: 263052159686265036
+      PSF_HeroesA_Casual_68: 287849069014488781
+      PSF_HeroesA_Casual_69: 8185481261799653490
+      PSF_HeroesA_Casual_7: 8737868007653229527
+      PSF_HeroesA_Casual_70: -567681603107310122
+      PSF_HeroesA_Casual_71: 4394319426124937616
+      PSF_HeroesA_Casual_72: -8747654625142289403
+      PSF_HeroesA_Casual_73: -8547750492995370457
+      PSF_HeroesA_Casual_74: -5036251889834388244
+      PSF_HeroesA_Casual_75: -4293899112290722969
+      PSF_HeroesA_Casual_76: 2571635723441894071
+      PSF_HeroesA_Casual_77: 5834740290375823302
+      PSF_HeroesA_Casual_78: 1445658406976810066
+      PSF_HeroesA_Casual_79: -7655744134151106392
+      PSF_HeroesA_Casual_8: 6766462303136362327
+      PSF_HeroesA_Casual_80: -4297917624086018790
+      PSF_HeroesA_Casual_81: -6902336493083548683
+      PSF_HeroesA_Casual_82: -3538453898575228381
+      PSF_HeroesA_Casual_83: -7859312267607644028
+      PSF_HeroesA_Casual_84: -3857798037832456678
+      PSF_HeroesA_Casual_85: -5405996816550567652
+      PSF_HeroesA_Casual_86: 4785506879235567043
+      PSF_HeroesA_Casual_87: 5692277226127896003
+      PSF_HeroesA_Casual_88: 8716703655502537142
+      PSF_HeroesA_Casual_89: -5456028848091660944
+      PSF_HeroesA_Casual_9: -3663641150641844820
+      PSF_HeroesA_Casual_90: 5092497124782112663
+      PSF_HeroesA_Casual_91: -780229419369382174
+      PSF_HeroesA_Casual_92: 4821679522131058766
+      PSF_HeroesA_Casual_93: 3702335415018778871
+      PSF_HeroesA_Casual_94: 4422797185138073332
+      PSF_HeroesA_Casual_95: -8953158527193317746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

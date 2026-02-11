@@ -1,0 +1,26 @@
+using System;
+using UnityEngine;
+
+public abstract class baseManager
+{
+    public GameController controller { get; set; }
+
+    public Type type { get; set; }
+    public abstract void Init();
+    public abstract void Update();
+
+    public abstract void Destory();
+
+    virtual public void ActiveOff()
+    {
+       
+    }
+
+
+
+    virtual public void GetController(GameController controller)
+    {
+        this.controller = controller;
+    }
+
+}
