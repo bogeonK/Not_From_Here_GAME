@@ -50,7 +50,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable
             }
             else 
             {
-                Debug.Log($"[{profile.displayName}] 이세계인 놓침! -> 베드 트리거 저장");
+                Debug.Log($"[{profile.displayName}] 이세계인 놓침!");
                 var trigger = new BadEndingTrigger(profile.badEndingId, profile.badEndingPhase, profile.priority, profile.npcId);
                 ending.ArmTrigger(trigger);
                 return;

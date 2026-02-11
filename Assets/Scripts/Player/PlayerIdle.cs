@@ -14,7 +14,6 @@ public class PlayerIdle : IPlayerState
 
     public void Update()
     {
-        // 입력이 생기면 Move로
         if (player.HasMoveInput())
             player.SM.ChangeState(player.MoveState);
     }

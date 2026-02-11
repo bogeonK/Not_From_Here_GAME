@@ -15,7 +15,7 @@ public class OpenAIManager : MonoBehaviour
             model = "gpt-3.5-turbo",
             messages = new Message[]
             {
-                new Message { role = "system", content = "You are a helpful NPC." }, // юс╫ц
+                new Message { role = "system", content = "You are a helpful NPC." }, 
                 new Message { role = "user", content = userMessage }
             },
             max_tokens = 200

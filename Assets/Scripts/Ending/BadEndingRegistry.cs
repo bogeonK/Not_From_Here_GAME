@@ -24,7 +24,6 @@ public class BadEndingRegistry : MonoBehaviour
         armed.Add(trigger);
         Debug.Log($"[BadTrigger] ARM -> {trigger.id} (phase={trigger.phase}, prio={trigger.priority}, src={trigger.sourceNpcId})");
 
-        // 선택: 디버그/로그용 이벤트
         EventManager.TriggerEvent(EventType.BAD_TRIGGER_ARMED, trigger);
     }
 

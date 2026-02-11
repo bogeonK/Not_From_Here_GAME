@@ -10,8 +10,6 @@ public class Player : MonoBehaviour
     public Vector2 MoveInput { get; private set; }
 
     public PlayerStateMachine SM { get; private set; }
-
-    // States
     public PlayerIdle IdleState { get; private set; }
     public PlayerMove MoveState { get; private set; }
 
@@ -66,8 +64,8 @@ public class Player : MonoBehaviour
 
     private void ReadInput()
     {
-        float x = Input.GetAxisRaw("Horizontal"); // A/D
-        float y = Input.GetAxisRaw("Vertical");   // W/S
+        float x = Input.GetAxisRaw("Horizontal"); 
+        float y = Input.GetAxisRaw("Vertical");   
         MoveInput = new Vector2(x, y).normalized;
     }
 

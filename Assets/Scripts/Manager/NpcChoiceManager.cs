@@ -24,7 +24,6 @@ public class NpcChoiceManager : baseManager
             GameObject.Destroy(_currentUI.gameObject);
     }
 
-    // ===== ÇÙ½É API =====
     public void OpenChoice(NPCInteractable npc, NpcProfileSO profile)
     {
         if (_currentUI != null) return;

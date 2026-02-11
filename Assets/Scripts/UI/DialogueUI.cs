@@ -52,12 +52,11 @@ public class DialogueUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
             Close();
 
-        //다음대화: f
         if (waitingForF && Input.GetKeyDown(KeyCode.F))
         {
             if (endPhase == 1)
             {
-                logText.text = $"NPC: {exitExcuse}\n(F를 눌러 종료)";
+                logText.text = $"{exitExcuse}\n(F를 눌러 종료)";
                 endPhase = 2;
                 return;
             }
@@ -76,7 +75,6 @@ public class DialogueUI : MonoBehaviour
             ShowInput(true);
         }
 
-        //질문전송: enter
         if (!waitingForF && Input.GetKeyDown(KeyCode.Return))
             Send();
     }

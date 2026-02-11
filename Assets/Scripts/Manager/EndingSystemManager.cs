@@ -16,7 +16,6 @@ public class EndingSystemManager : baseManager
 
     public override void GetController(GameController controller)
     {
-        // 필요하면 controller 저장
     }
 
     public override void Init()
@@ -24,7 +23,6 @@ public class EndingSystemManager : baseManager
         _ended = false;
         _armed.Clear();
 
-        // StoryPhase 이벤트 구독 (payload = object)
         EventManager.RegisterEvent(EventType.STORY_PHASE, OnStoryPhase);
 
         if (_config.logPhase) Debug.Log("[EndingSystemManager] Init");
@@ -32,12 +30,12 @@ public class EndingSystemManager : baseManager
 
     public override void ActiveOff()
     {
-        // UI 없으면 비워도 됨
+      
     }
 
     public override void Update()
     {
-        // 매 프레임 할 일 없음
+       
     }
 
     public override void Destory()
@@ -46,7 +44,6 @@ public class EndingSystemManager : baseManager
         _armed.Clear();
     }
 
-    // NPC가 “못 죽였다” 처리할 때 호출
     public void ArmTrigger(BadEndingTrigger trigger)
     {
         bool exists = _armed.Any(t => t.id == trigger.id && t.sourceNpcId == trigger.sourceNpcId);
@@ -74,6 +71,5 @@ public class EndingSystemManager : baseManager
 
         _ended = true;
         Debug.Log($"[BAD ENDING] {trigger.id} (src={trigger.sourceNpcId})");
-        // TODO: 엔딩 처리
     }
 }
