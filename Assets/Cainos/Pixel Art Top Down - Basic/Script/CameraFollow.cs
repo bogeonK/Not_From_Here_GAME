@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace Cainos.PixelArtTopDown_Basic
 {
-    //let camera follow target
     public class CameraFollow : MonoBehaviour
     {
         public Transform target;
@@ -21,13 +20,25 @@ namespace Cainos.PixelArtTopDown_Basic
             offset = transform.position - target.position;
         }
 
-        private void Update()
+        private void LateUpdate()
         {
             if (target == null) return;
 
             targetPos = target.position + offset;
             transform.position = Vector3.Lerp(transform.position, targetPos, lerpSpeed * Time.deltaTime);
         }
+        public void SnapNow()
+        {
+            if (target == null) return;
 
+            targetPos = target.position + offset;
+            transform.position = targetPos;
+        }
+
+        public void RecalculateOffset()
+        {
+            if (target == null) return;
+            offset = transform.position - target.position;
+        }
     }
 }

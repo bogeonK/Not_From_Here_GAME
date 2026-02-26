@@ -33,10 +33,8 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(MoveInput);
-
-        //대화시 이동차단
-        if (IsDialogueOpen())
+        //대화,전투 이동차단
+        if (IsUIBlocking())
         {
             MoveInput = Vector2.zero;
             if (SM.Current != IdleState) SM.ChangeState(IdleState);
@@ -53,7 +51,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (IsDialogueOpen())
+        if (IsUIBlocking())
         {
             Stop();
             return;
@@ -62,11 +60,18 @@ public class Player : MonoBehaviour
         SM.FixedUpdate();
     }
 
-    private bool IsDialogueOpen()
+    private bool IsUIBlocking()
     {
-        return GameController.instance != null
-            && GameController.instance.DialogueUI != null
-            && GameController.instance.DialogueUI.IsOpen;
+        //대화 
+        if (GameController.instance?.DialogueUI?.IsOpen == true)
+            return true;
+
+        //전투 상태
+        var bm = GameController.instance?.GetManager<BattleManager>();
+        if (bm != null && bm.State != BattleState.None)
+            return true;
+
+        return false;
     }
 
     private void ReadInput()

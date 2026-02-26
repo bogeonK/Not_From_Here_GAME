@@ -14,3 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndingSystemConfigSO
   logPhase: 1
   logBadEnding: 1
+  presentations:
+  - id: 4
+    art: {fileID: 21300000, guid: 4b94b3da028367043afcee0fdc7399c0, type: 3}
+    line1: "\uB9C8\uC655\uC758 \uCCA9\uC790\uB85C \uBAB0\uB824 \uCC98\uD615\uB2F9\uD588\uB2E4"
+    line2: "\uC774\uC7A5\uC774 \uC774\uC138\uACC4\uC778 \uC774\uC5C8\uC2B5\uB2C8\uB2E4
+      - Bad Ending"
+  - id: 0
+    art: {fileID: 21300000, guid: 1dacf1aec71ac184ca9f48ad681bbd5d, type: 3}
+    line1: "\uD53C\uB97C \uD68C\uBCF5\uD558\uB824\uACE0 \uB9C8\uC2E0 \uBB3C\uC57D\uC774
+      \uB3C5\uC57D\uC774\uC5C8\uB2E4."
+    line2: "\uBB3C\uC57D\uC0C1\uC778\uC774 \uC774\uC138\uACC4\uC778 \uC774\uC5C8\uC2B5\uB2C8\uB2E4
+      - Bad Ending"
+  - id: 1
+    art: {fileID: 21300000, guid: 1dacf1aec71ac184ca9f48ad681bbd5d, type: 3}
+    line1: "\uACF5\uACA9\uC744 \uD558\uB824 \uD588\uC73C\uB098 \uBB34\uAE30\uAC00
+      \uAE68\uC838\uBC84\uB838\uB2E4"
+    line2: "\uBB34\uAE30\uC0C1\uC778\uC774 \uC774\uC138\uACC4\uC778 \uC774\uC5C8\uC2B5\uB2C8\uB2E4
+      - Bad Ending"
+  - id: 3
+    art: {fileID: 21300000, guid: 1dacf1aec71ac184ca9f48ad681bbd5d, type: 3}
+    line1: "\uB9C8\uC655\uC744 \uCC98\uCE58\uD558\uACE0 \uB9C8\uC744\uC5D0 \uB3CC\uC544\uC640\uBCF4\uB2C8
+      \uBD88\uD0C0\uC788\uC5C8\uB2E4"
+    line2: "???\uC774 \uC774\uC138\uACC4\uC778 \uC774\uC5C8\uC2B5\uB2C8\uB2E4 - Bad
+      Ending"
+  - id: 2
+    art: {fileID: 21300000, guid: 1dacf1aec71ac184ca9f48ad681bbd5d, type: 3}
+    line1: "\uBC84\uD2F8 \uC218 \uC788\uB294 \uACF5\uACA9\uC774\uC5C8\uC9C0\uB9CC
+      \uBC29\uC5B4\uAD6C\uAC00 \uB2E8\uC228\uC5D0 \uBC15\uC0B4\uB098 \uCE58\uBA85\uC0C1\uC744
+      \uD53C\uD558\uC9C0 \uBABB\uD588\uB2E4."
+    line2: "\uBC29\uC5B4\uAD6C\uC0C1\uC778\uC774 \uC774\uC138\uACC4\uC778 \uC774\uC5C8\uC2B5\uB2C8\uB2E4
+      - Bad Ending"
+  - id: 5
+    art: {fileID: 21300000, guid: 1dacf1aec71ac184ca9f48ad681bbd5d, type: 3}
+    line1: "\uC774\uC138\uACC4\uC778\uACFC \uB9C8\uC655\uC744 \uBAA8\uB450 \uCC98\uCE58\uD588\uB2E4"
+    line2: "\uBC29\uC5B4\uAD6C\uC0C1\uC778\uC774 \uC774\uC138\uACC4\uC778 \uC774\uC5C8\uC2B5\uB2C8\uB2E4
+      - Bad Ending"

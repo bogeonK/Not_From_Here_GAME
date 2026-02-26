@@ -8,17 +8,17 @@ public class OpenAIManager : MonoBehaviour
     private const string API_URL = "https://api.openai.com/v1/chat/completions";
     [SerializeField] private string apiKey;
 
-    public IEnumerator SendMessage(string userMessage, System.Action<string> onComplete)
+    public IEnumerator SendMessage(string systemPrompt,string userMessage, System.Action<string> onComplete)
     {
         var requestData = new ChatRequest
         {
             model = "gpt-3.5-turbo",
             messages = new Message[]
             {
-                new Message { role = "system", content = "You are a helpful NPC." }, 
-                new Message { role = "user", content = userMessage }
+                new Message { role = "system", content = systemPrompt  }, 
+                new Message { role = "user", content = userMessage  }
             },
-            max_tokens = 200
+            max_tokens = 100
         };
 
         string jsonBody = JsonUtility.ToJson(requestData);

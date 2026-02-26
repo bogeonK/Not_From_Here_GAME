@@ -7,14 +7,16 @@ public class InteractionDetector : MonoBehaviour
 
     private void Update()
     {
-        if (GameController.instance.DialogueUI.IsOpen) return;
+        var ui = GameController.instance?.DialogueUI;
+        if (ui != null)
+        {
+            if (ui.IsOpen) return;
+            if (ui.LastClosedFrame == Time.frameCount) return; 
+        }
 
-        var ui = GameController.instance.DialogueUI;
-
-        if (ui != null && ui.IsOpen)
-            return;
-        if (ui != null && ui.LastClosedFrame == Time.frameCount)
-            return;
+        //전투 중이면 상호작용 막음
+        var bm = GameController.instance?.GetManager<BattleManager>();
+        if (bm != null && bm.State != BattleState.None) return;
 
         if (!Input.GetKeyDown(interactKey)) return;
         if (current == null) return;

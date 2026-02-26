@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd73cb340e7bc224f85c69f1938d804c, type: 3}
+  m_Name: Investigation Progress Config SO
+  m_EditorClassIdentifier: Assembly-CSharp::InvestigationProgressConfigSO
+  requiredNpcIds:
+  - innkeeper
+  log: 1
+  notReadyLine: "\uC544\uC9C1 \uC900\uBE44\uD560 \uAC8C \uB0A8\uC544\uC788\uC5B4.."

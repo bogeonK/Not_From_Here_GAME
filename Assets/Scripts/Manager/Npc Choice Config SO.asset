@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1436f0df1217b4429c701568cfb6ca2, type: 3}
   m_Name: Npc Choice Config SO
   m_EditorClassIdentifier: Assembly-CSharp::NpcChoiceConfigSO
-  popupPrefab: {fileID: 0}
+  popupPrefab: {fileID: 8806019071378788228, guid: b59fe7902b3033a428f633656dfcbd16,
+    type: 3}

@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4187981a93e3c1b46bfe7544c471208e, type: 3}
-  m_Name: NPC_Szadi
+  m_Name: NPC_Armorer
   m_EditorClassIdentifier: Assembly-CSharp::NpcProfileSO
-  npcId: elder
-  displayName: "\uB9C8\uC744 \uC7A5\uB85C"
+  npcId: Armorer
+  displayName: "\uBC29\uC5B4\uAD6C\uC0C1\uC778"
   isOtherWorlder: 0
-  badEndingId: 0
-  badEndingPhase: 1
-  priority: 0
+  systemPromptWorld1: 
+  systemPromptOtherWorld: 
+  badEndingId: 2
+  badEndingPhase: 5
+  priority: 3

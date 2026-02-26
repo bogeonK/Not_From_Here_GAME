@@ -1,9 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class NpcChoiceManager : baseManager
 {
     private NpcChoiceConfigSO _config;
-    private NpcChoicePopupUI _currentUI;
+    private NpcChoicePopupUI_JRPG _currentUI;
 
     public NpcChoiceManager(NpcChoiceConfigSO config)
     {
@@ -28,14 +29,46 @@ public class NpcChoiceManager : baseManager
     {
         if (_currentUI != null) return;
 
+        if (_config == null || _config.popupPrefab == null)
+        {
+            return;
+        }
+
         var go = GameObject.Instantiate(_config.popupPrefab);
-        _currentUI = go.GetComponent<NpcChoicePopupUI>();
+
+        _currentUI = go.GetComponent<NpcChoicePopupUI_JRPG>(); 
+        if (_currentUI == null)
+        {
+            GameObject.Destroy(go);
+            return;
+        }
 
         _currentUI.Open(
-            profile.displayName,
-            () => { npc.ResolveChoice(NpcChoice.Kill); Close(); },
-            () => { npc.ResolveChoice(NpcChoice.Spare); Close(); }
+            new List<string> { "죽인다", "안 죽인다" },
+            (idx) =>
+            {
+                if (idx == 0)
+                {
+                    npc.ResolveChoice(NpcChoice.Kill);
+                    Close();
+                    GameController.instance.DialogueUI.Close();
+                }
+                else
+                {
+                    npc.ResolveChoice(NpcChoice.Spare);
+                    Close();
+                    GameController.instance.DialogueUI.ShowExitExcuseAndClose(npc);
+                }
+            },
+            onCancel: () =>
+            {
+                Close();
+                GameController.instance.DialogueUI.Close();
+            },
+            prompt: "어떻게 할까?"
         );
+
+
     }
 
     private void Close()

@@ -22,9 +22,12 @@ public class GameController : MonoBehaviour
 
         ConnectBaseScriptableObject();
 
+        Register<SpawnManager, SpawnManagerConfigSO>(config => new SpawnManager(config));
+
         Register<EndingSystemManager, EndingSystemConfigSO>(config => new EndingSystemManager(config));
-        Register<NpcChoiceManager, NpcChoiceConfigSO>(config => new NpcChoiceManager(config)
-);
+        Register<NpcChoiceManager, NpcChoiceConfigSO>(config => new NpcChoiceManager(config));
+        Register<InvestigationProgressManager, InvestigationProgressConfigSO>(config => new InvestigationProgressManager(config));
+        Register<BattleManager, BattleManagerConfigSO>(config => new BattleManager(config));
 
         GetControllerAll();
         InitAll();
@@ -106,6 +109,11 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.F9))
+        {
+            GetManager<EndingSystemManager>()
+                .DebugPrintArmedTriggers();
+        }
         UpdateAll();
     }
 
