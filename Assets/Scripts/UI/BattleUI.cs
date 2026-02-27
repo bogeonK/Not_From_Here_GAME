@@ -14,7 +14,7 @@ public class BattleUI : MonoBehaviour
     public TextMeshProUGUI enemyHPText;
 
     [Header("Options (Top -> Bottom)")]
-    public TextMeshProUGUI[] optionTexts; // size 3: 공격/물약/도망
+    public TextMeshProUGUI[] optionTexts; 
 
     [Header("Boss Art")]
     [SerializeField] private Image bossArtImage;          

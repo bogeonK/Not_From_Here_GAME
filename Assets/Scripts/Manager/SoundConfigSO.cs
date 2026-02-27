@@ -5,10 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Game/Config/SoundManagerConfigSO")]
 public class SoundManagerConfigSO : BaseScriptableObject
 {
-    [Header("Default")]
     public BgmId defaultBgm = BgmId.Lobby;
 
-    [Header("Volumes (0~1)")]
+    [Header("소리 (0~1)")]
     [Range(0f, 1f)] public float masterVolume = 1f;
     [Range(0f, 1f)] public float bgmVolume = 1f;
     [Range(0f, 1f)] public float sfxVolume = 1f;
@@ -41,10 +40,10 @@ public class SoundManagerConfigSO : BaseScriptableObject
         public BgmId bgm;
     }
 
-    [Header("Clips")]
+    [Header("Clip")]
     public List<BgmEntry> bgms = new();
     public List<SfxEntry> sfxs = new();
 
-    [Header("Auto BGM by Scene")]
+    [Header("씬별 BGM구분")]
     public List<SceneBgmEntry> sceneBgms = new();
 }

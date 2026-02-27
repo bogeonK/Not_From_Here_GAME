@@ -12,7 +12,6 @@ public class SpawnManagerConfigSO : BaseScriptableObject
     [Header("Options")]
     public bool clearKeyAfterUse = true;
 
-    [Header("How to find Player")]
     public bool useControllerPlayerTransformFirst = true;
     public string playerTag = "Player";
 

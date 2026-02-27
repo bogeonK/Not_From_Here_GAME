@@ -40,7 +40,7 @@ public class InvestigationProgressManager : baseManager
 
         bool added = _talked.Add(npcId);
         if (added && _config != null && _config.log)
-            Debug.Log($"[Investigation] talked: {npcId} ({_talked.Count}/{RequiredCount})");
+            Debug.Log($"´ëÈ­NPC: {npcId} ({_talked.Count}/{RequiredCount})");
     }
 
     public int RequiredCount => (_config != null && _config.requiredNpcIds != null)

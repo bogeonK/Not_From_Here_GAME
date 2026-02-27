@@ -3,5 +3,5 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Config/NpcChoiceUI")]
 public class NpcChoiceConfigSO : BaseScriptableObject
 {
-    public GameObject popupPrefab;   // NpcChoicePopupUI ÇÁ¸®ÆÕ
+    public GameObject popupPrefab;   
 }

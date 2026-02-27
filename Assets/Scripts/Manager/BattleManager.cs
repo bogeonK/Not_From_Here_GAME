@@ -73,16 +73,13 @@ public class BattleManager : baseManager
         {
             if (!enemyAttackShown)
             {
-                // 1단계: 마왕 공격 실행 + 메시지 보여주기
                 ResolveEnemyAttack();
                 enemyAttackShown = true;
 
-                // 마왕 공격 메시지를 보여줄 시간
                 waitTimer = config.enemyDelay;
             }
             else
             {
-                // 2단계: 메시지 보여준 뒤 플레이어 턴으로 복귀
                 enemyAttackShown = false;
                 EnterPlayerTurn();
             }

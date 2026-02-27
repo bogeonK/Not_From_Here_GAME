@@ -32,7 +32,6 @@ public class SoundManager : baseManager
 {
     private readonly SoundManagerConfigSO _config;
 
-    // 호스트 오브젝트
     private GameObject _host;
     private AudioSource _bgmA;
     private AudioSource _bgmB;
@@ -58,7 +57,6 @@ public class SoundManager : baseManager
     {
         if (_config == null)
         {
-            Debug.LogError("[SoundManager] Config is null!");
             return;
         }
 
@@ -68,7 +66,6 @@ public class SoundManager : baseManager
         SceneManager.sceneLoaded -= OnSceneLoaded;
         SceneManager.sceneLoaded += OnSceneLoaded;
 
-        // 시작 BGM: 현재 씬 기준으로 자동 매칭, 없으면 default
         var active = SceneManager.GetActiveScene().name;
         if (_sceneToBgm.TryGetValue(active, out var bgm))
             PlayBgm(bgm, 0f, true);
@@ -78,13 +75,12 @@ public class SoundManager : baseManager
 
     public override void ActiveOff()
     {
-        // 게임 시작 시 매니저들 ActiveOffAll 돌리니까,
-        // 사운드는 "꺼버리면" 불편해서 아무것도 안 함.
+
     }
 
     public override void Update()
     {
-        // 현재는 매 프레임 처리할 것 없음
+
     }
 
     public override void Destory()
@@ -134,9 +130,6 @@ public class SoundManager : baseManager
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // 씬이 바뀌면 "전투/엔딩 스택"은 상황에 따라 유지/초기화 선택인데
-        // 보통 전투는 같은 씬에서 발생하니까 유지해도 되고,
-        // 씬 로드가 발생했다면 일단 스택은 비우는게 안전함.
         _bgmStack.Clear();
 
         if (_sceneToBgm.TryGetValue(scene.name, out var bgm))
@@ -145,9 +138,6 @@ public class SoundManager : baseManager
             PlayBgm(_config.defaultBgm);
     }
 
-    // -------------------------
-    // Public API (다른 매니저/스크립트에서 호출)
-    // -------------------------
     public void PlaySfx(SfxId id)
     {
         if (id == SfxId.None) return;
@@ -178,7 +168,6 @@ public class SoundManager : baseManager
 
         float targetTo = entryVol * _config.bgmVolume * _config.masterVolume;
 
-        //fadeSeconds가 0이면 "즉시" 적용
         if (fadeSeconds <= 0f)
         {
             if (_fadeRoutine != null) GameController.instance.StopCoroutine(_fadeRoutine);
@@ -192,13 +181,11 @@ public class SoundManager : baseManager
                 _currentBgm.volume = 0f;
             }
 
-            // next를 current로 사용
             _nextBgm.clip = clip;
             _nextBgm.loop = loop;
             _nextBgm.volume = targetTo;
             _nextBgm.Play();
 
-            // swap
             var tmp = _currentBgm;
             _currentBgm = _nextBgm;
             _nextBgm = tmp;
@@ -226,7 +213,7 @@ public class SoundManager : baseManager
         _bgmStack.Clear();
     }
 
-    // 전투/엔딩 시작: 현재 BGM 저장하고 새 BGM 재생
+
     public void PushBgm(BgmId id, float fadeSeconds = -1f)
     {
         if (_currentBgmId != BgmId.None)
@@ -235,7 +222,6 @@ public class SoundManager : baseManager
         PlayBgm(id, fadeSeconds);
     }
 
-    // 전투/엔딩 끝: 저장된 BGM 복귀
     public void PopBgm(float fadeSeconds = -1f)
     {
         if (_bgmStack.Count <= 0) return;
@@ -243,7 +229,6 @@ public class SoundManager : baseManager
         PlayBgm(prev, fadeSeconds);
     }
 
-    // 인게임 씬 하나에서 "마을/던전"만 전환되는 구조면 이걸 호출해서 바꿔도 됨
     public void SetAreaBgm(BgmId id, float fadeSeconds = -1f)
     {
         PlayBgm(id, fadeSeconds);
@@ -308,7 +293,6 @@ public class SoundManager : baseManager
             from.volume = 0f;
         }
 
-        // swap
         var tmp = _currentBgm;
         _currentBgm = to;
         _nextBgm = tmp;

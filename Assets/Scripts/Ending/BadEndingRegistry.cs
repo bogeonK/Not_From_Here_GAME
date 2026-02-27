@@ -22,7 +22,7 @@ public class BadEndingRegistry : MonoBehaviour
         if (exists) return;
 
         armed.Add(trigger);
-        Debug.Log($"[BadTrigger] ARM -> {trigger.id} (phase={trigger.phase}, prio={trigger.priority}, src={trigger.sourceNpcId})");
+        Debug.Log($"BadTrigger= {trigger.id} (phase={trigger.phase}, prio={trigger.priority}, src={trigger.sourceNpcId})");
 
         EventManager.TriggerEvent(EventType.BAD_TRIGGER_ARMED, trigger);
     }

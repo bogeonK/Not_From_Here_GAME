@@ -19,7 +19,7 @@ MonoBehaviour:
   playerMaxHP: 100
   enemyMaxHP: 120
   playerAttackDamage: 40
-  enemyAttackDamage: 50
+  enemyAttackDamage: 100
   potionHealAmount: 60
   introDelay: 0.8
   enemyDelay: 0.8
