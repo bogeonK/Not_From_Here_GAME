@@ -15954,7 +15954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b992b96aa922b44f8f9aff74e4a6a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpenAIManager
-  apiKey: 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
+  apiKey: 
 --- !u!4 &354367812
 Transform:
   m_ObjectHideFlags: 0
@@ -55633,7 +55633,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 7702298550283831905, guid: 99219891dd7627f4a9507adf5d55820c,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -68430,89 +68431,6 @@ Transform:
   - {fileID: 546281366}
   m_Father: {fileID: 870349420}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &330897850678992016
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2736538852352123664, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_Name
-      value: GameController
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736538852352123664, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.00918
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.00206
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6341626801953468854, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7537344771374047554, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: openAI
-      value: 
-      objectReference: {fileID: 354367811}
-    - target: {fileID: 7537344771374047554, guid: d5738905e440aa44ab950998201ed8a8,
-        type: 3}
-      propertyPath: dialogueUI
-      value: 
-      objectReference: {fileID: 521761828}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d5738905e440aa44ab950998201ed8a8, type: 3}
 --- !u!1001 &396292958174197721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69136,6 +69054,5 @@ SceneRoots:
   - {fileID: 1622312051}
   - {fileID: 870349420}
   - {fileID: 1965657284}
-  - {fileID: 330897850678992016}
   - {fileID: 942084589}
   - {fileID: 354367812}

@@ -201,7 +201,7 @@ public class EndingSystemManager : baseManager
                 GameController.instance.DialogueUI.OpenBadEnding(
                     null,
                     "모든 이세계인의 흔적이 사라졌다. 너는 마왕 앞에서 끝까지 버텼다.",
-                    "BossDeathHappyEnding - 해피엔딩"
+                    "BossDeathHappyEnding - 베드엔딩"
                 );
         }
 
