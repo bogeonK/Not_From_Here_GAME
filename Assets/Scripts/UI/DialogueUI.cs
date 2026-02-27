@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -18,9 +19,12 @@ public class DialogueUI : MonoBehaviour
 
     [Header("대화종료")]
     [SerializeField] private int maxQuestions = 3;
-    [SerializeField] private string exitExcuse = "아, 미안하지만 지금은 급한 일이 있어서… 다음에 이야기하자.";
+    [SerializeField] private string exitExcuse = "(더이상 대화는 의미 없을 것 같다)";
 
     [SerializeField] private Image endingArtImage;
+
+    [SerializeField] private string lobbySceneName = "Lobby";
+    private bool endingReadyToExit;
 
     private int questionCount = 0;
     private int endPhase = 0;
@@ -43,6 +47,12 @@ public class DialogueUI : MonoBehaviour
     private string endingLine1;
     private string endingLine2;
     private int endingStep;
+
+    //인겜최초진입 대사용
+    private bool isEnterSequence;
+    private string[] enterLines;
+    private int enterIndex;
+
 
     // 전투 모드
     private bool isChoiceMode = false;
@@ -102,6 +112,24 @@ public class DialogueUI : MonoBehaviour
             return;
         }
 
+        if (isEnterSequence)
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                enterIndex++;
+
+                if (enterIndex >= enterLines.Length)
+                {
+                    isEnterSequence = false;
+                    Close();
+                    return;
+                }
+
+                logText.text = $"{enterLines[enterIndex]}\n(F를 눌러 다음으로)";
+            }
+            return;
+        }
+
         if (isEndingSequence)
         {
             if (Input.GetKeyDown(KeyCode.F))
@@ -114,9 +142,20 @@ public class DialogueUI : MonoBehaviour
                 else
                 {
                     isEndingSequence = false;
-                    if (endingArtImage != null) endingArtImage.gameObject.SetActive(false);
-                    Close();
+                    endingReadyToExit = true;
+
+                    logText.text = $"(화면을 클릭하면 로비로 돌아갑니다)";
                 }
+            }
+            return;
+        }
+
+        //엔딩 끝난 뒤 로비로
+        if (endingReadyToExit)
+        {
+            if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+            {
+                SceneManager.LoadScene(lobbySceneName);
             }
             return;
         }
@@ -215,6 +254,11 @@ public class DialogueUI : MonoBehaviour
 
     public void Close()
     {
+
+        isEnterSequence = false;
+        enterLines = null;
+        enterIndex = 0;
+
         lastClosedFrame = Time.frameCount;
         SetNpcName("");
 
@@ -231,6 +275,8 @@ public class DialogueUI : MonoBehaviour
         currentNpc = null;
         finishedByMaxQuestions = false;
         endPhase = 0;
+
+        endingReadyToExit = false;
     }
 
     public void Send()
@@ -315,7 +361,7 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
-    private void SetNpcName(string name)
+    public void SetNpcName(string name)
     {
         if (npcNameText != null)
             npcNameText.text = name;
@@ -349,6 +395,7 @@ public class DialogueUI : MonoBehaviour
 
         // 엔딩
         isEndingSequence = true;
+        endingReadyToExit = false;
         endingLine1 = line1;
         endingLine2 = line2;
         endingStep = 0;
@@ -426,4 +473,20 @@ public class DialogueUI : MonoBehaviour
 
         logText.text = line;
     }
+    // 인겜 최초진입대사 열기
+    public void OpenEnterLines(string[] lines)
+    {
+        if (lines == null || lines.Length == 0) return;
+
+        enterLines = lines;
+        enterIndex = 0;
+        isEnterSequence = true;
+
+        root.SetActive(true);
+        isOpen = true;
+
+        ShowInput(false);
+        logText.text = $"{enterLines[enterIndex]}\n(F를 눌러 다음으로)";
+    }
+
 }

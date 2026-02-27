@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63f933919cecd6b4cbe4f362941d84b7, type: 3}
   m_Name: Battle Manager Config SO
   m_EditorClassIdentifier: Assembly-CSharp::BattleManagerConfigSO
+  backgroundSprite: {fileID: 7702298550283831905, guid: 99219891dd7627f4a9507adf5d55820c,
+    type: 3}
+  bossSprite: {fileID: 8973854245796871431, guid: 619c5dbba2e42e548bbc501a4f3963e1,
+    type: 3}
   playerMaxHP: 100
-  enemyMaxHP: 80
+  enemyMaxHP: 120
   playerAttackDamage: 40
-  enemyAttackDamage: 20
-  potionHealAmount: 30
+  enemyAttackDamage: 50
+  potionHealAmount: 60
   introDelay: 0.8
   enemyDelay: 0.8

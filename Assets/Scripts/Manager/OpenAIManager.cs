@@ -12,7 +12,7 @@ public class OpenAIManager : MonoBehaviour
     {
         var requestData = new ChatRequest
         {
-            model = "gpt-3.5-turbo",
+            model = "gpt-4o-mini",
             messages = new Message[]
             {
                 new Message { role = "system", content = systemPrompt  }, 

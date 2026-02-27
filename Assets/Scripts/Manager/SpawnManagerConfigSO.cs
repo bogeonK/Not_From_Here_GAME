@@ -18,4 +18,9 @@ public class SpawnManagerConfigSO : BaseScriptableObject
 
     [Header("Debug")]
     public bool debugLog = false;
+
+
+    [Header("인게임 진입 대사 설정")]
+    [TextArea(2, 5)]
+    public string[] enterGameLines;
 }

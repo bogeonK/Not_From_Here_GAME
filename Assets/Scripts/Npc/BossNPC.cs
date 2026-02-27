@@ -6,6 +6,8 @@ public class BossNPC : MonoBehaviour, IInteractable
     [Header("Prompt")]
     [SerializeField] private string prompt = "도전하기";
 
+    [SerializeField] private string displayName = "마왕";
+
     [Header("Intro Lines (고정 대사)")]
     [TextArea(2, 6)]
     [SerializeField]
@@ -57,7 +59,7 @@ public class BossNPC : MonoBehaviour, IInteractable
                 var line = introLines[i];
                 if (string.IsNullOrWhiteSpace(line)) continue;
 
-                ui.OpenOneShot(null, line);
+                ui.OpenOneShot(displayName, line);
                 if (lineDelay > 0f)
                     yield return new WaitForSeconds(lineDelay);
 

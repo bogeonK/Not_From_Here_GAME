@@ -18,7 +18,16 @@ public class GameController : MonoBehaviour
 
     void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         instance = this;
+        DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneLoaded += OnSceneLoaded;
 
         ConnectBaseScriptableObject();
 
@@ -28,6 +37,7 @@ public class GameController : MonoBehaviour
         Register<NpcChoiceManager, NpcChoiceConfigSO>(config => new NpcChoiceManager(config));
         Register<InvestigationProgressManager, InvestigationProgressConfigSO>(config => new InvestigationProgressManager(config));
         Register<BattleManager, BattleManagerConfigSO>(config => new BattleManager(config));
+        Register<SoundManager, SoundManagerConfigSO>(config => new SoundManager(config));
 
         GetControllerAll();
         InitAll();
@@ -115,6 +125,38 @@ public class GameController : MonoBehaviour
                 .DebugPrintArmedTriggers();
         }
         UpdateAll();
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        RebindSceneReferences();
+
+        Debug.Log($"[GameController] Scene Loaded: {scene.name}");
+        if (scene.name == "InGameScene")
+            StartCoroutine(InitSpawnNextFrame());
+
+        if (scene.name == "InGameScene")
+        {
+            GetManager<BattleManager>()?.ActiveOff();
+        }
+    }
+    private IEnumerator InitSpawnNextFrame()
+    {
+        yield return null; // 씬 오브젝트들 생성 완료 1프레임 대기
+        GetManager<SpawnManager>().Init();
+    }
+
+    private void RebindSceneReferences()
+    {
+        dialogueUI = FindFirstObjectByType<DialogueUI>(FindObjectsInactive.Include);
+
+        openAI = FindFirstObjectByType<OpenAIManager>(FindObjectsInactive.Include);
+
+        Debug.Log(
+            $"[GameController] Rebind Complete → " +
+            $"DialogueUI: {(dialogueUI ? "OK" : "NULL")} / " +
+            $"OpenAI: {(openAI ? "OK" : "NULL")}"
+        );
     }
 
     private Dictionary<Type, baseManager> managerMap = new Dictionary<Type, baseManager>();

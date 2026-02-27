@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e2ba4cb5ef3534ba701ad266a8d719, type: 3}
   m_Name: Spawn Manager Config SO
   m_EditorClassIdentifier: Assembly-CSharp::SpawnManagerConfigSO
-  spawnIdKey: Spawn
+  spawnIdKey: Spawnid
   defaultSpawnId: Default
   clearKeyAfterUse: 1
   useControllerPlayerTransformFirst: 1
   playerTag: Player
   debugLog: 0
+  enterGameLines:
+  - "\uB9C8\uC744 \uC0AC\uB78C\uB4E4\uC5D0\uAC8C\uC11C \uD544\uC694\uD55C \uBB3C\uD488\uC744
+    \uC5BB\uC5B4\uBCF4\uC790"
+  - "\uC774\uC138\uACC4\uC778\uC774\uB77C\uACE0 \uC758\uC2EC\uB418\uBA74 \uC8FD\uC5EC\uC57C
+    \uD55C\uB2E4."

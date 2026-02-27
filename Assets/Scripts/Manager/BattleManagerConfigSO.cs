@@ -3,6 +3,10 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Game/Config/BattleManagerConfigSO")]
 public class BattleManagerConfigSO : BaseScriptableObject
 {
+    [Header("Art")]
+    public Sprite backgroundSprite;
+    public Sprite bossSprite;
+
     [Header("Stats")]
     public int playerMaxHP = 100;
     public int enemyMaxHP = 80;

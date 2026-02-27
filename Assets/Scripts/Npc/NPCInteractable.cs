@@ -48,7 +48,10 @@ public class NPCInteractable : MonoBehaviour, IInteractable
         //대화 완료된 NPC: 종료
         if (dialogueFinished)
         {
-            ui.OpenOneShot(null, afterFinishedLine);
+            string name = (profile != null && !string.IsNullOrEmpty(profile.displayName))
+                            ? profile.displayName
+                            : "NPC";
+            ui.OpenOneShot(name, afterFinishedLine);
 
             return;
         }
@@ -79,6 +82,9 @@ public class NPCInteractable : MonoBehaviour, IInteractable
         {
             if (choice == NpcChoice.Kill)
             {
+                GameController.instance
+                .GetManager<InvestigationProgressManager>()
+                .MarkTalked(profile.npcId);
                 Debug.Log($"[{profile.displayName}] 이세계인 처치 성공");
                 gameObject.SetActive(false);
                 return;
@@ -100,6 +106,9 @@ public class NPCInteractable : MonoBehaviour, IInteractable
         {
             if (choice == NpcChoice.Kill)
             {
+                GameController.instance
+                .GetManager<InvestigationProgressManager>()
+                .MarkTalked(profile.npcId);
                 Debug.LogWarning($"[{profile.displayName}] 1세계인을 죽임");
                 gameObject.SetActive(false);
             }

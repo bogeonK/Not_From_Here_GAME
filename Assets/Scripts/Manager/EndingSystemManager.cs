@@ -83,6 +83,19 @@ public class EndingSystemManager : baseManager
         }
     }
 
+    // 엔딩전용 bgm 재생
+    private void PlayEndingBgm(EndingId endingId)
+    {
+        var sm = GameController.instance != null ? GameController.instance.GetManager<SoundManager>() : null;
+        if (sm == null) return;
+
+        var bgm = (endingId == EndingId.BossDeathHappyEnding)
+            ? BgmId.EndingGood
+            : BgmId.EndingBad;
+
+        sm.PushBgm(bgm, 0.6f);
+    }
+
     public bool TryTriggerPhase(StoryPhase phase)
     {
         if (_ended) return true;
@@ -98,6 +111,7 @@ public class EndingSystemManager : baseManager
         Debug.Log($"베드엔딩: {trigger.id} (src={trigger.sourceNpcId})");
 
         var p = FindPresentation(trigger.id);
+        PlayEndingBgm(trigger.id);
 
         if (GameController.instance != null && GameController.instance.DialogueUI != null)
         {
@@ -150,6 +164,7 @@ public class EndingSystemManager : baseManager
         Debug.Log("해피엔딩");
 
         var p = FindPresentation(EndingId.AfterBossHappyEnding);
+        PlayEndingBgm(EndingId.AfterBossHappyEnding);
 
         if (GameController.instance != null && GameController.instance.DialogueUI != null)
         {
@@ -162,5 +177,34 @@ public class EndingSystemManager : baseManager
                     "해피엔딩"
                 );
         }
+    }
+
+    // 이세계인다죽고 마왕한테 죽음
+    public bool TryTriggerBossDeathHappyEnding_IfNoOtherTriggers()
+    {
+        if (_ended) return true;
+
+        bool hasAnyOtherTrigger = _armed.Any(t => t.id != EndingId.BossDeathHappyEnding);
+        if (hasAnyOtherTrigger) return false;
+
+        _ended = true;
+        Debug.Log("해피엔딩: 마왕에게 사망");
+
+        var p = FindPresentation(EndingId.BossDeathHappyEnding);
+        PlayEndingBgm(EndingId.BossDeathHappyEnding);
+
+        if (GameController.instance != null && GameController.instance.DialogueUI != null)
+        {
+            if (p != null)
+                GameController.instance.DialogueUI.OpenBadEnding(p.art, p.line1, p.line2);
+            else
+                GameController.instance.DialogueUI.OpenBadEnding(
+                    null,
+                    "모든 이세계인의 흔적이 사라졌다. 너는 마왕 앞에서 끝까지 버텼다.",
+                    "BossDeathHappyEnding - 해피엔딩"
+                );
+        }
+
+        return true;
     }
 }

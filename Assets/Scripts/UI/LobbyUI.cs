@@ -5,7 +5,7 @@ public class LobbyUI : MonoBehaviour
 {
     public void OnClickStart()
     {
-        PlayerPrefs.SetString("Spawn", "Default");
+        PlayerPrefs.SetString("SpawnId", "Default");
         SceneManager.LoadScene("InGameScene");
     }
 

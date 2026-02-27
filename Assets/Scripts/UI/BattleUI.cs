@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,8 +16,18 @@ public class BattleUI : MonoBehaviour
     [Header("Options (Top -> Bottom)")]
     public TextMeshProUGUI[] optionTexts; // size 3: 공격/물약/도망
 
+    [Header("Boss Art")]
+    [SerializeField] private Image bossArtImage;          
+    [SerializeField] private RectTransform bossArtRect;   
+    [SerializeField] private float bossShakeDuration = 0.25f;
+    [SerializeField] private float bossShakeStrength = 10f;   
+    [SerializeField] private int bossShakeVibrato = 12;
+
+    [Header("Background")]
+    [SerializeField] private Image backgroundImage;
+
     [Header("Highlight")]
-    public string prefixSelected = "▶ ";
+    public string prefixSelected = "> ";
     public string prefixNormal = "  ";
 
     private BattleManager manager;
@@ -25,6 +36,14 @@ public class BattleUI : MonoBehaviour
     private bool inputEnabled = false;
 
     private string[] optionRaw;
+
+    private Vector2 bossBaseAnchoredPos;
+    private Coroutine bossShakeRoutine;
+
+    private void Awake()
+    {
+        SetBattleVisualsActive(false);
+    }
 
     public void Bind(BattleManager mgr)
     {
@@ -45,6 +64,12 @@ public class BattleUI : MonoBehaviour
                 optionRaw[i] = optionTexts[i].text;
             }
         }
+
+        if (bossArtRect == null && bossArtImage != null)
+            bossArtRect = bossArtImage.rectTransform;
+
+        if (bossArtRect != null)
+            bossBaseAnchoredPos = bossArtRect.anchoredPosition;
 
         selectedIndex = 0;
         RefreshHighlight();
@@ -67,7 +92,7 @@ public class BattleUI : MonoBehaviour
         }
 
         // 결정
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.Space))
         {
             ConfirmSelection();
         }
@@ -101,14 +126,52 @@ public class BattleUI : MonoBehaviour
         }
     }
 
+    //보스 연출
+    public void SetBossArt(Sprite sprite)
+    {
+        if (bossArtImage == null) return;
+        bossArtImage.sprite = sprite;
+        bossArtImage.enabled = (sprite != null);
+    }
+
+    public void PlayBossHitShake()
+    {
+        if (bossArtRect == null) return;
+
+        if (bossShakeRoutine != null) StopCoroutine(bossShakeRoutine);
+        bossShakeRoutine = StartCoroutine(CoShakeBoss());
+    }
+
+    private IEnumerator CoShakeBoss()
+    {
+        float t = 0f;
+        while (t < bossShakeDuration)
+        {
+            t += Time.deltaTime;
+
+          
+            float x = Random.Range(-bossShakeStrength, bossShakeStrength);
+            float y = Random.Range(-bossShakeStrength, bossShakeStrength);
+
+            bossArtRect.anchoredPosition = bossBaseAnchoredPos + new Vector2(x, y);
+            yield return null;
+        }
+
+        bossArtRect.anchoredPosition = bossBaseAnchoredPos;
+        bossShakeRoutine = null;
+    }
+
     public void Show()
     {
         if (root != null) root.SetActive(true);
         else gameObject.SetActive(true);
+
+        SetBattleVisualsActive(true);
     }
 
     public void Hide()
     {
+        SetBattleVisualsActive(false);
         if (root != null) root.SetActive(false);
         else gameObject.SetActive(false);
     }
@@ -143,5 +206,22 @@ public class BattleUI : MonoBehaviour
             if (optionTexts[i] != null)
                 optionTexts[i].gameObject.SetActive(visible);
         }
+    }
+
+    //전투배경
+    public void SetBackground(Sprite sprite)
+    {
+        if (backgroundImage == null) return;
+        backgroundImage.sprite = sprite;
+        backgroundImage.enabled = (sprite != null);
+    }
+
+    public void SetBattleVisualsActive(bool active)
+    {
+        if (bossArtImage != null)
+            bossArtImage.enabled = active && bossArtImage.sprite != null;
+
+        if (backgroundImage != null)
+            backgroundImage.enabled = active && backgroundImage.sprite != null;
     }
 }

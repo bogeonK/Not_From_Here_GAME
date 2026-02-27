@@ -58,6 +58,8 @@ public class PortalTeleportTrigger : MonoBehaviour
 
             cameraFollow?.SnapNow();
 
+            GameController.instance.GetManager<SoundManager>().SetAreaBgm(BgmId.Dungeon, 0.1f);
+
         }, fadeDuration);
 
     }

@@ -11,6 +11,9 @@ public enum EndingId
     //전투진입전
     ElderExecution,
 
-    //해피엔딩
-     AfterBossHappyEnding
+    //플레이어가 이세계인
+     AfterBossHappyEnding,
+
+     //해피엔딩
+     BossDeathHappyEnding,
 }

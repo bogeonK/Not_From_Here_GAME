@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public enum BattleState
@@ -21,6 +22,7 @@ public class BattleManager : baseManager
     private BattleState state = BattleState.None;
     private float waitTimer = 0f;
     private bool enemyAttackShown = false;
+    private bool pendingDeathSequence = false;
 
     private BattleUI battleUI;
 
@@ -115,9 +117,16 @@ public class BattleManager : baseManager
             battleUI.Show();
             battleUI.SetInputEnabled(false);
             battleUI.SetOptionsVisible(false);
+
+            battleUI.SetBackground(config.backgroundSprite);
+            battleUI.SetBossArt(config.bossSprite);
+
             battleUI.SetMessage("마왕이 나타난다...!");
             battleUI.SetHP(playerHP, config.playerMaxHP, enemyHP, config.enemyMaxHP);
         }
+
+        var sm = GameController.instance.GetManager<SoundManager>();
+        sm?.PushBgm(BgmId.Battle, 0.3f);
     }
 
     //플레이어턴
@@ -154,28 +163,48 @@ public class BattleManager : baseManager
         battleUI?.SetInputEnabled(false);
         battleUI?.SetOptionsVisible(false);
 
+        GameController.instance.StartCoroutine(CoPlayerAttackSequence(ending));
+    }
+
+    private IEnumerator CoPlayerAttackSequence(EndingSystemManager ending)
+    {
+        battleUI?.SetMessage("당신의 공격!");
+        yield return new WaitForSeconds(1.0f); 
+
+        //보스 진동
+        battleUI?.PlayBossHitShake();
+
+        yield return new WaitForSeconds(0.15f); 
+
         enemyHP -= config.playerAttackDamage;
         if (enemyHP < 0) enemyHP = 0;
 
-        if (battleUI != null)
-        {
-            battleUI.SetHP(playerHP, config.playerMaxHP, enemyHP, config.enemyMaxHP);
-            battleUI.SetMessage($"당신의 공격! {config.playerAttackDamage} 데미지를 입혔다!");
-        }
-
+        battleUI?.SetHP(playerHP, config.playerMaxHP, enemyHP, config.enemyMaxHP);
+        battleUI?.SetMessage($"{config.playerAttackDamage} 데미지를 입혔다!");
 
         if (enemyHP <= 0)
         {
-            // 이세계인 있으면 베드엔딩, 없으면 해피엔딩
+            if (battleUI != null)
+            {
+                battleUI.SetInputEnabled(false);
+                battleUI.SetOptionsVisible(false);
+                battleUI.SetHP(playerHP, config.playerMaxHP, enemyHP, config.enemyMaxHP);
+                battleUI.SetMessage("마왕이 쓰러졌다!");
+            }
+
+            yield return new WaitForSeconds(1.0f);
+
             if (ending != null && ending.ResolveAfterBoss())
             {
                 battleUI?.SetInputEnabled(false);
                 battleUI?.Hide();
-                return;
+                state = BattleState.None;
+                waitTimer = 0f;
+                yield break;
             }
 
             EndBattle(true);
-            return;
+            yield break;
         }
 
         state = BattleState.EnemyTurn;
@@ -185,20 +214,6 @@ public class BattleManager : baseManager
 
     public void UsePotion()
     {
-        //if (state != BattleState.PlayerTurn) return;
-
-        //battleUI?.SetInputEnabled(false);
-
-        //playerHP = Mathf.Min(config.playerMaxHP, playerHP + config.potionHealAmount);
-
-        //state = BattleState.EnemyTurn;
-        //waitTimer = config.enemyDelay;
-
-        //if (battleUI != null)
-        //{
-        //    battleUI.SetHP(playerHP, config.playerMaxHP, enemyHP, config.enemyMaxHP);
-        //    battleUI.SetMessage("마왕의 차례...");
-        //}
         if (state != BattleState.PlayerTurn) return;
 
         battleUI?.SetInputEnabled(false);
@@ -265,11 +280,43 @@ public class BattleManager : baseManager
 
         if (playerHP <= 0)
         {
-            EndBattle(false);
+            if (pendingDeathSequence) return;
+            pendingDeathSequence = true;
+
+            state = BattleState.None;
+            waitTimer = 0f;
+            enemyAttackShown = false;
+
+            battleUI?.SetInputEnabled(false);
+            battleUI?.SetOptionsVisible(false);
+
+            GameController.instance.StartCoroutine(CoDeathSequence(ending));
             return;
         }
 
         //EnterPlayerTurn();
+    }
+    private IEnumerator CoDeathSequence(EndingSystemManager ending)
+    {
+        yield return new WaitForSeconds(config.enemyDelay);
+
+        if (battleUI != null)
+        {
+            battleUI.SetMessage("당신은 쓰러졌다...");
+            battleUI.SetHP(playerHP, config.playerMaxHP, enemyHP, config.enemyMaxHP);
+        }
+
+        yield return new WaitForSeconds(1.0f);
+
+        if (ending != null && ending.TryTriggerBossDeathHappyEnding_IfNoOtherTriggers())
+        {
+            battleUI?.Hide();
+            state = BattleState.None;
+            waitTimer = 0f;
+            yield break;
+        }
+
+        EndBattle(false);
     }
 
     private void EndBattle(bool? victory)

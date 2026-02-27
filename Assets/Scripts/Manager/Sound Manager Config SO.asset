@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5deb212ac0faae940bc034efa02abdd1, type: 3}
+  m_Name: Sound Manager Config SO
+  m_EditorClassIdentifier: Assembly-CSharp::SoundManagerConfigSO
+  defaultBgm: 0
+  masterVolume: 1
+  bgmVolume: 1
+  sfxVolume: 1
+  defaultFadeSeconds: 0.6
+  bgms:
+  - id: 1
+    clip: {fileID: 8300000, guid: bf2cdcee8f5924bacafd60b7f26dcaed, type: 3}
+    volume: 0.1
+    loop: 1
+  - id: 2
+    clip: {fileID: 8300000, guid: 919ab21e0f92a4aa492915577aa9328d, type: 3}
+    volume: 0.1
+    loop: 1
+  - id: 3
+    clip: {fileID: 8300000, guid: f2d5fe2ba3a5b43629878781af4390e8, type: 3}
+    volume: 0.1
+    loop: 1
+  - id: 4
+    clip: {fileID: 8300000, guid: 45dc23c6e773e4bfb80e0c418a6007cf, type: 3}
+    volume: 0.1
+    loop: 1
+  - id: 6
+    clip: {fileID: 8300000, guid: ffc95b83c9f8344ebb6214eb5b0b3087, type: 3}
+    volume: 0.1
+    loop: 1
+  - id: 5
+    clip: {fileID: 8300000, guid: 73493c1f678bf4f18a7174b39872d0bc, type: 3}
+    volume: 0.1
+    loop: 1
+  sfxs: []
+  sceneBgms:
+  - sceneName: Lobby
+    bgm: 1
+  - sceneName: InGameScene
+    bgm: 2
